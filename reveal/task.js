@@ -15,7 +15,7 @@ function showBlock(){
 
 }
 
-setInterval(()=> {
+window.addEventListener('scroll', function() {
 
     showBlock();
-}, 100)
+});
